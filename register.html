@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    
+ 
+</head>
+<body>
+    <div class="container">
+        <form id="contact" action="" method="post">
+            <h1>Registration Form</h1>
+            <div class="row">
+                <!-- first column -->
+                <div class="column">                        
+                    <fieldset>
+                        <input type="text" placeholder="First Name *" name="fname" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                        <input type="text" placeholder="Last name *" name="lname" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                        <input type="email" placeholder="Your email *" name="email" required autofocus>
+                    </fieldset>
+                </div>
+                <!-- second column -->
+                <div class="column">
+                    <fieldset>
+                        <p>What is your gender?</p>
+                        <div class="radio">
+                            <input type="radio" id="male" name="gender" required>
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="female" name="gender" required>
+                            <label for="female">Female</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <!-- submit button -->
+            <fieldset>
+                <button type="submit" id="button">Register</button>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
