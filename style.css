@@ -72,3 +72,14 @@ button{
     padding: 0 40px;
     box-sizing: border-box;
 }
+@media screen and (max-width: 580px)  {
+    .row {
+     flex-direction: column;
+    }
+    .row .column {
+     width: 90% !important;
+    }
+    #contact .row #phone {
+    padding-right: 180px;
+   }
+   }
